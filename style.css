@@ -29,7 +29,23 @@ body {
 .nav-right {
     float: right;
 }
-
+.right-appicon{
+    vertical-align: middle;
+}
+.sign-in{
+    background-color: #4284F5;
+    border: none;
+    width: 86px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+}
+.sign-in:hover {
+    cursor: pointer;
+    box-shadow: rgb(154, 154, 154) 2px 2px 2px 2px;
+}
+/* --------------MAIN-----------*/
 .main {
     margin-top: 200px;
     text-align: center;
@@ -77,4 +93,34 @@ body {
 .main-language a:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #DADCE0;
+    width: 100%;
+    opacity: .8;
+    font-size: 14px;
+}
+.footer-country {
+    font-size: 15px;
+    padding-left: 1rem;
+    border-bottom: 1px solid #F2F2F2;
+    color: #5F6368;
+    padding: 1rem;
+}
+.footer-bottom  a {
+    color: #5F6368;
+    margin-right: 1rem;
+}
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+.bottom-right {
+    float: right;
+    padding: 1rem;
+}
+.bottom-left {
+    float: left;
+    padding: 1rem;
 }
