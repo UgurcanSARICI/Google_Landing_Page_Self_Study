@@ -29,3 +29,52 @@ body {
 .nav-right {
     float: right;
 }
+
+.main {
+    margin-top: 200px;
+    text-align: center;
+}
+.search-bar {
+    border: 1px solid #D3D3D3;
+    border-radius: 1.3rem;
+    width: 560px;
+    height: 42px;
+    margin: 20px auto;
+}
+.search-bar input {
+    width: 480px;
+    border: none;
+    padding: .2rem;
+    outline: none;
+    margin-bottom: 20px;
+}
+.main-button-left , .main-button-right {
+    width: 140px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    margin: 15px 0px;
+    padding: 0px 16px;
+    opacity: .7;
+}
+.main-button-left:hover,.main-button-right:hover{
+        border: 1px solid #D3D3D3;
+        cursor: pointer;
+        box-shadow: rgb(154, 154, 154) 1px 1px 10px;
+        opacity: 1;
+    }
+.search-bar .magnify{
+    width: 30px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.search-bar .mic {
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.main-language a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
